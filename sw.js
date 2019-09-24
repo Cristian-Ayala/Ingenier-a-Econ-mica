@@ -3,15 +3,16 @@
 const CACHE_NAME = 'cache_ing_economica',
     urlsToCache = [
         './',
+        'assets/bootstrap/css/bootstrap.min.css',
         'https://fonts.googleapis.com/css?family=Montserrat:400,700',
         'https://fonts.googleapis.com/css?family=Kaushan+Script',
         'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
         'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700',
         'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js',
-        './style.css',
         './swRegistry.js',
         './assets/img/1024x1024.png',
-        './assets/img/16x16.png'
+        './assets/img/16x16.png',
+        './factores.pdf'
     ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
